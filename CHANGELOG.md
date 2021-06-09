@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.0.2](https://github.com/php-slack/slack/releases/tag/2.0.2)
+ - Fix to PSR-4
+ - Update README.md compatible with guzzle 7.0
+
 ## [2.0.1](https://github.com/php-slack/slack/releases/tag/2.0.1)
  - Add tests for all BlockElement factory types
  - Fix BlockElement factory spec for Checkboxes (Fixes #60)
