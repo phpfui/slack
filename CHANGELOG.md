@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.1.0](https://github.com/php-slack/slack/releases/tag/2.1.0)
+- Add "header" as a valid block type (#65)
+
 ## [2.0.2](https://github.com/php-slack/slack/releases/tag/2.0.2)
  - Fix to PSR-4
  - Update README.md compatible with guzzle 7.0
