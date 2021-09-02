@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.1.1](https://github.com/php-slack/slack/releases/tag/2.1.1)
+- Add .gitattributes (#66)
+
 ## [2.1.0](https://github.com/php-slack/slack/releases/tag/2.1.0)
 - Add "header" as a valid block type (#65)
 
