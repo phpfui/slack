@@ -25,7 +25,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Maknz\\Slack\\": "src/",
+            "Maknz\\Slack\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
             "Slack\\Tests\\": "tests/"
         }
     },
