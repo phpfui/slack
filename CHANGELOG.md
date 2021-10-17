@@ -1,5 +1,15 @@
 # Change Log
 
+## [2.2.0](https://github.com/php-slack/slack/releases/tag/2.2.0)
+- Fix invitation link. Ralates to php-slack/slack#67
+- Change fieldClass property to trait abstract
+- Fix minor Scrutinizer issue with legacy Client injection to Message
+- autoload-dev for tests directory to keep it out of production autoloader
+- Set Content-Type header to application/json (#71). Closes #70
+- Apply fixes from StyleCI (#73). Relates to #71, #70
+- New Block Types (#75)
+- Commit styleci yml (#77)
+
 ## [2.1.1](https://github.com/php-slack/slack/releases/tag/2.1.1)
 - Add .gitattributes (#66)
 
