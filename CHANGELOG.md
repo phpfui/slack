@@ -1,5 +1,10 @@
 # Change Log
 
+## [2.2.1](https://github.com/php-slack/slack/releases/tag/2.2.1)
+- Update `.gitattributes`: Added /.styleci.yml export-ignore
+- Fix empty initial values in multi dynamic selects (fix #74)
+- Add Scrutinizer config with multiple php versions
+
 ## [2.2.0](https://github.com/php-slack/slack/releases/tag/2.2.0)
 - Fix invitation link. Ralates to php-slack/slack#67
 - Change fieldClass property to trait abstract
