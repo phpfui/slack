@@ -1,8 +1,8 @@
 <?php
-namespace Slack\Tests\Object;
+namespace Slack\Tests\CompositionObject;
 
 use Maknz\Slack\BlockElement\Text;
-use Maknz\Slack\Object\Option;
+use Maknz\Slack\CompositionObject\Option;
 use Slack\Tests\TestCase;
 
 class OptionUnitTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 namespace Maknz\Slack\BlockElement;
 
+use Maknz\Slack\CompositionObject\Option;
 use Maknz\Slack\MaxItemsTrait;
-use Maknz\Slack\Object\Option;
 
 class MultiStaticSelect extends AbstractStaticSelect
 {
@@ -32,7 +32,7 @@ class MultiStaticSelect extends AbstractStaticSelect
     /**
      * Get the intially selected options.
      *
-     * @return \Maknz\Slack\Object\Option[]
+     * @return \Maknz\Slack\CompositionObject\Option[]
      */
     public function getInitialOptions()
     {
