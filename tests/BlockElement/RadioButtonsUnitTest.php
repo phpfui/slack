@@ -5,9 +5,8 @@ use InvalidArgumentException;
 use Maknz\Slack\BlockElement\RadioButtons;
 use Maknz\Slack\BlockElement\Text;
 use Maknz\Slack\CompositionObject\Option;
-use Slack\Tests\TestCase;
 
-class RadioButtonsUnitTest extends TestCase
+class RadioButtonsUnitTest extends \PHPUnit\Framework\TestCase
 {
     public function testRadioButtonsFromArray()
     {

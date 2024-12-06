@@ -3,9 +3,8 @@ namespace Slack\Tests\BlockElement;
 
 use InvalidArgumentException;
 use Maknz\Slack\BlockElement\Text;
-use Slack\Tests\TestCase;
 
-class TextUnitTest extends TestCase
+class TextUnitTest extends \PHPUnit\Framework\TestCase
 {
     public function testTextFromArray()
     {

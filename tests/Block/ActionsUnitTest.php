@@ -5,9 +5,8 @@ use InvalidArgumentException;
 use Maknz\Slack\Block\Actions;
 use Maknz\Slack\BlockElement\StaticSelect;
 use Maknz\Slack\BlockElement\Text;
-use Slack\Tests\TestCase;
 
-class ActionsUnitTest extends TestCase
+class ActionsUnitTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @throws \InvalidArgumentException

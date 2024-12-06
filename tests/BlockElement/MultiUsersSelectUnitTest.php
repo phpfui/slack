@@ -4,9 +4,8 @@ namespace Slack\Tests\BlockElement;
 use InvalidArgumentException;
 use Maknz\Slack\BlockElement\MultiUsersSelect;
 use Maknz\Slack\BlockElement\Text;
-use Slack\Tests\TestCase;
 
-class MultiUsersSelectUnitTest extends TestCase
+class MultiUsersSelectUnitTest extends \PHPUnit\Framework\TestCase
 {
     public function testMultiUsersSelectFromArray()
     {

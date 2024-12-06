@@ -3,7 +3,7 @@ namespace Slack\Tests;
 
 use Maknz\Slack\Client;
 
-class ClientUnitTest extends TestCase
+class ClientUnitTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @throws \InvalidArgumentException

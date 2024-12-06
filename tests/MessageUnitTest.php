@@ -6,7 +6,7 @@ use Maknz\Slack\Client;
 use Maknz\Slack\Message;
 use Mockery;
 
-class MessageUnitTest extends TestCase
+class MessageUnitTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @throws \PHPUnit\Framework\Exception

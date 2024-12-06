@@ -6,7 +6,7 @@ use Maknz\Slack\AttachmentField;
 use Maknz\Slack\BlockElement\Text;
 use Maknz\Slack\FieldsTrait;
 
-class FieldsTraitUnitTest extends TestCase
+class FieldsTraitUnitTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @throws \InvalidArgumentException
@@ -15,7 +15,7 @@ class FieldsTraitUnitTest extends TestCase
      */
     public function testAddFieldAsArray()
     {
-        $obj = new FieldsMock;
+        $obj = new FieldsMock();
 
         $obj->addField([
             'title' => 'Title 1',
@@ -39,7 +39,7 @@ class FieldsTraitUnitTest extends TestCase
      */
     public function testAddFieldAsObject()
     {
-        $obj = new FieldsMock;
+        $obj = new FieldsMock();
 
         $f = new AttachmentField([
             'title' => 'Title 1',
@@ -63,7 +63,7 @@ class FieldsTraitUnitTest extends TestCase
      */
     public function testAddFieldAsWrongObject()
     {
-        $obj = new FieldsMock;
+        $obj = new FieldsMock();
 
         $f = new Text([
             'type' => Text::TYPE_PLAIN,
@@ -82,7 +82,7 @@ class FieldsTraitUnitTest extends TestCase
      */
     public function testSetFields()
     {
-        $obj = new FieldsMock;
+        $obj = new FieldsMock();
 
         $obj->addField([
             'title' => 'Title 1',
@@ -108,7 +108,7 @@ class FieldsTraitUnitTest extends TestCase
      */
     public function testFieldsAsArrays()
     {
-        $obj = new FieldsMock;
+        $obj = new FieldsMock();
 
         $f = new AttachmentField([
             'title' => 'Title 1',
@@ -128,9 +128,13 @@ class FieldsTraitUnitTest extends TestCase
     }
 }
 
-class FieldsMock
+class FieldsMock extends \PHPUnit\Framework\TestCase
 {
     use FieldsTrait;
+
+	public function __construct()
+	{
+	}
 
     protected function getFieldClass()
     {

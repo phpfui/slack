@@ -3,9 +3,8 @@ namespace Slack\Tests\BlockElement;
 
 use Maknz\Slack\BlockElement\Image;
 use Maknz\Slack\BlockElement\Text;
-use Slack\Tests\TestCase;
 
-class ImageUnitTest extends TestCase
+class ImageUnitTest extends \PHPUnit\Framework\TestCase
 {
     public function testImageFromArray()
     {

@@ -3,9 +3,8 @@ namespace Slack\Tests\CompositionObject;
 
 use Maknz\Slack\BlockElement\Text;
 use Maknz\Slack\CompositionObject\Option;
-use Slack\Tests\TestCase;
 
-class OptionUnitTest extends TestCase
+class OptionUnitTest extends \PHPUnit\Framework\TestCase
 {
     public function testOptionFromArray()
     {

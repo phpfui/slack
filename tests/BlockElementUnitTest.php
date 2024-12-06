@@ -4,7 +4,7 @@ namespace Slack\Tests;
 use InvalidArgumentException;
 use Maknz\Slack\BlockElement;
 
-class BlockElementUnitTest extends TestCase
+class BlockElementUnitTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider factoryArrayProvider
@@ -18,7 +18,7 @@ class BlockElementUnitTest extends TestCase
         $this->assertInstanceOf($class, $element);
     }
 
-    public function factoryArrayProvider()
+    public static function factoryArrayProvider()
     {
         return [
             ['button',                     BlockElement\Button::class],

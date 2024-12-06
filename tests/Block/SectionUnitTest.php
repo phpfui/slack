@@ -4,10 +4,9 @@ namespace Slack\Tests\Block;
 use InvalidArgumentException;
 use Maknz\Slack\Block\Section;
 use Maknz\Slack\BlockElement\Text;
-use Slack\Tests\TestCase;
 use UnexpectedValueException;
 
-class SectionUnitTest extends TestCase
+class SectionUnitTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @throws \InvalidArgumentException

@@ -6,7 +6,7 @@ use Maknz\Slack\Attachment;
 use Maknz\Slack\AttachmentAction;
 use Maknz\Slack\AttachmentField;
 
-class AttachmentUnitTest extends TestCase
+class AttachmentUnitTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @throws \InvalidArgumentException

@@ -5,7 +5,7 @@ use InvalidArgumentException;
 use Maknz\Slack\Block;
 use Maknz\Slack\Block\Section;
 
-class BlockUnitTest extends TestCase
+class BlockUnitTest extends \PHPUnit\Framework\TestCase
 {
     public function testFactoryWithArray()
     {
