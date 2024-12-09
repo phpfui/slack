@@ -18,7 +18,7 @@ class BlockElementUnitTest extends TestCase
         $this->assertInstanceOf($class, $element);
     }
 
-    public function factoryArrayProvider()
+    public static function factoryArrayProvider()
     {
         return [
             ['button',                     BlockElement\Button::class],
