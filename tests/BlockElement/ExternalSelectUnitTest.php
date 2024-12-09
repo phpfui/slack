@@ -4,8 +4,9 @@ namespace Slack\Tests\BlockElement;
 use InvalidArgumentException;
 use Maknz\Slack\BlockElement\ExternalSelect;
 use Maknz\Slack\BlockElement\Text;
+use Slack\Tests\TestCase;
 
-class ExternalSelectUnitTest extends \PHPUnit\Framework\TestCase
+class ExternalSelectUnitTest extends TestCase
 {
     public function testExternalSelectFromArray()
     {

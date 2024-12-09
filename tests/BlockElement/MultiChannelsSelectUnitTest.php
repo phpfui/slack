@@ -4,8 +4,9 @@ namespace Slack\Tests\BlockElement;
 use InvalidArgumentException;
 use Maknz\Slack\BlockElement\MultiChannelsSelect;
 use Maknz\Slack\BlockElement\Text;
+use Slack\Tests\TestCase;
 
-class MultiChannelsSelectUnitTest extends \PHPUnit\Framework\TestCase
+class MultiChannelsSelectUnitTest extends TestCase
 {
     public function testMultiChannelsSelectFromArray()
     {

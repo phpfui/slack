@@ -4,8 +4,9 @@ namespace Slack\Tests\BlockElement;
 use InvalidArgumentException;
 use Maknz\Slack\BlockElement\Button;
 use Maknz\Slack\BlockElement\Text;
+use Slack\Tests\TestCase;
 
-class ButtonUnitTest extends \PHPUnit\Framework\TestCase
+class ButtonUnitTest extends TestCase
 {
     public function testButtonFromArray()
     {

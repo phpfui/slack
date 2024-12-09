@@ -3,8 +3,9 @@ namespace Slack\Tests\BlockElement;
 
 use Maknz\Slack\BlockElement\MultiStaticSelect;
 use Maknz\Slack\BlockElement\Text;
+use Slack\Tests\TestCase;
 
-class MultiStaticSelectUnitTest extends \PHPUnit\Framework\TestCase
+class MultiStaticSelectUnitTest extends TestCase
 {
     public function testMultiStaticSelectFromArray()
     {

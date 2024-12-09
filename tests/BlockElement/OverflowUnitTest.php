@@ -4,8 +4,9 @@ namespace Slack\Tests\BlockElement;
 use Maknz\Slack\BlockElement\Overflow;
 use Maknz\Slack\BlockElement\Text;
 use Maknz\Slack\CompositionObject\Option;
+use Slack\Tests\TestCase;
 
-class OverflowUnitTest extends \PHPUnit\Framework\TestCase
+class OverflowUnitTest extends TestCase
 {
     public function testCheckboxesFromArray()
     {

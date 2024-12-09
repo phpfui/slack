@@ -5,8 +5,9 @@ use InvalidArgumentException;
 use Maknz\Slack\Block\Input;
 use Maknz\Slack\BlockElement\Text;
 use Maknz\Slack\BlockElement\TextInput;
+use Slack\Tests\TestCase;
 
-class InputUnitTest extends \PHPUnit\Framework\TestCase
+class InputUnitTest extends TestCase
 {
     /**
      * @throws \InvalidArgumentException

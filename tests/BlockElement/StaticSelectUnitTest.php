@@ -4,8 +4,9 @@ namespace Slack\Tests\BlockElement;
 use InvalidArgumentException;
 use Maknz\Slack\BlockElement\StaticSelect;
 use Maknz\Slack\BlockElement\Text;
+use Slack\Tests\TestCase;
 
-class StaticSelectUnitTest extends \PHPUnit\Framework\TestCase
+class StaticSelectUnitTest extends TestCase
 {
     public function testStaticSelectFromArray()
     {

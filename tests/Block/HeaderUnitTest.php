@@ -3,8 +3,9 @@ namespace Slack\Tests\Block;
 
 use Maknz\Slack\Block\Header;
 use Maknz\Slack\BlockElement\Text;
+use Slack\Tests\TestCase;
 
-class HeaderUnitTest extends \PHPUnit\Framework\TestCase
+class HeaderUnitTest extends TestCase
 {
     /**
      * @throws \InvalidArgumentException

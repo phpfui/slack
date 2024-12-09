@@ -4,8 +4,9 @@ namespace Slack\Tests\BlockElement;
 use DateTime;
 use Maknz\Slack\BlockElement\DatePicker;
 use Maknz\Slack\BlockElement\Text;
+use Slack\Tests\TestCase;
 
-class DatePickerUnitTest extends \PHPUnit\Framework\TestCase
+class DatePickerUnitTest extends TestCase
 {
     public function testDatePickerFromArray()
     {

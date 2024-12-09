@@ -8,7 +8,7 @@ use Maknz\Slack\Client;
 use Mockery;
 use RuntimeException;
 
-class ClientFunctionalTest extends \PHPUnit\Framework\TestCase
+class ClientFunctionalTest extends TestCase
 {
     /**
      * @throws \InvalidArgumentException

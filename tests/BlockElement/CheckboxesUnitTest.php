@@ -4,8 +4,9 @@ namespace Slack\Tests\BlockElement;
 use Maknz\Slack\BlockElement\Checkboxes;
 use Maknz\Slack\BlockElement\Text;
 use Maknz\Slack\CompositionObject\Option;
+use Slack\Tests\TestCase;
 
-class CheckboxesUnitTest extends \PHPUnit\Framework\TestCase
+class CheckboxesUnitTest extends TestCase
 {
     public function testCheckboxesFromArray()
     {

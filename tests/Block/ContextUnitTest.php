@@ -5,8 +5,9 @@ use InvalidArgumentException;
 use Maknz\Slack\Block\Context;
 use Maknz\Slack\BlockElement\Image;
 use Maknz\Slack\BlockElement\Text;
+use Slack\Tests\TestCase;
 
-class ContextUnitTest extends \PHPUnit\Framework\TestCase
+class ContextUnitTest extends TestCase
 {
     /**
      * @throws \InvalidArgumentException

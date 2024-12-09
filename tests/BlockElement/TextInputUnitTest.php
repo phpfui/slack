@@ -4,8 +4,9 @@ namespace Slack\Tests\BlockElement;
 use InvalidArgumentException;
 use Maknz\Slack\BlockElement\Text;
 use Maknz\Slack\BlockElement\TextInput;
+use Slack\Tests\TestCase;
 
-class TextInputUnitTest extends \PHPUnit\Framework\TestCase
+class TextInputUnitTest extends TestCase
 {
     public function testTextInputFromArray()
     {

@@ -4,8 +4,9 @@ namespace Slack\Tests\BlockElement;
 use DateTime;
 use Maknz\Slack\BlockElement\Text;
 use Maknz\Slack\BlockElement\Timepicker;
+use Slack\Tests\TestCase;
 
-class TimepickerUnitTest extends \PHPUnit\Framework\TestCase
+class TimepickerUnitTest extends TestCase
 {
     public function testTimepickerFromArray()
     {

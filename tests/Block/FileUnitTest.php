@@ -2,8 +2,9 @@
 namespace Slack\Tests\Block;
 
 use Maknz\Slack\Block\File;
+use Slack\Tests\TestCase;
 
-class FileUnitTest extends \PHPUnit\Framework\TestCase
+class FileUnitTest extends TestCase
 {
     /**
      * @throws \InvalidArgumentException
